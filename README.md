@@ -1,2 +1,2 @@
 # html-server
-server html through github
+serve html through github
