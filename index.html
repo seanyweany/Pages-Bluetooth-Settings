@@ -1,5 +1,12 @@
 <html>
   <body>
-    <a href="ms-settings:bluetooth" target="_blank">Open Bluetooth Settings</a>
+    <a href="ms-settings:bluetooth" onclick="openInNewTab(event)">Open Bluetooth Settings</a>
+
+    <script>
+        function openInNewTab(event) {
+            event.preventDefault();
+            window.open('ms-settings:bluetooth', '_blank');
+        }
+    </script>
   </body>
 </html>
