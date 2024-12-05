@@ -1,17 +1,17 @@
 <html>
   <head>
     <script>
-        window.location.href = "ms-settings:bluetooth";
+        window.location.href = "ms-settings:connecteddevices";
     </script>
   </head>
   <body>
     <!-- Fallback text in case redirect fails -->
-    If you are not redirected, <a href="ms-settings:bluetooth" onclick="openInNewTab(event)">click here</a>
+    If you are not redirected, <a href="ms-settings:connecteddevices" onclick="openInNewTab(event)">click here</a>
 
     <script>
         function openInNewTab(event) {
             event.preventDefault();
-            window.open('ms-settings:bluetooth', '_blank');
+            window.open('ms-settings:connecteddevices', '_blank');
         }
     </script>
   </body>
