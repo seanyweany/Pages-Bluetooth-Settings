@@ -1,17 +1,17 @@
 <html>
   <head>
     <script>
-        window.location.href = 'x-apple.systempreferences://Bluetooth';
+        window.location.href = 'x-apple.systempreferences:com.apple.preferences.Bluetooth';
     </script>
   </head>
   <body>
     <!-- Fallback text in case redirect fails -->
-    If you are not redirected, <a href='x-apple.systempreferences://Bluetooth' onclick='openInNewTab(event)'>click here</a>
+    If you are not redirected, <a href='x-apple.systempreferences:com.apple.preferences.Bluetooth' onclick='openInNewTab(event)'>click here</a>
 
     <script>
         function openInNewTab(event) {
             event.preventDefault();
-            window.open('x-apple.systempreferences://Bluetooth', '_blank');
+            window.open('x-apple.systempreferences:com.apple.preferences.Bluetooth', '_blank');
         }
     </script>
   </body>
