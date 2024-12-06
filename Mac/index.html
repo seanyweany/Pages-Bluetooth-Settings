@@ -1,0 +1,18 @@
+<html>
+  <head>
+    <script>
+        window.location.href = 'x-apple.systempreferences:com.apple.Bluetooth-Settings.extension';
+    </script>
+  </head>
+  <body>
+    <!-- Fallback text in case redirect fails -->
+    If you are not redirected, <a href='x-apple.systempreferences:com.apple.Bluetooth-Settings.extension' onclick='openInNewTab(event)'>click here</a>
+
+    <script>
+        function openInNewTab(event) {
+            event.preventDefault();
+            window.open('x-apple.systempreferences:com.apple.Bluetooth-Settings.extension', '_blank');
+        }
+    </script>
+  </body>
+</html>
